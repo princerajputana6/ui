@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    line-height: normal;
+    font-family: var(--font-inter);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #f5f9ff;
+}
+
+.main-container {
+    max-width: 1440px;
+    max-height: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-panel {
+    width: 666px;
+    height: 1024px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    color: var(--color-white);
+}
+
+.right-panel {
+    width: 774px;
+    height: 1024px;
+    background-color: white;
+}
+
+.right-panel .container {
+    margin: 70px 58px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-panel .upper-right-bar {
+    font-size: var(--font-size-xl);
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    color: var(--color-gray);
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.back-arrow {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.36px;
+}
+
+.back-arrow img {
+    width: 10px;
+    margin-right: 8px;
+}
+
+
+.upper-right-bar .upper-right-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.upper-right-bar .upper-right-panel .top-panel {
+    font-size: 14px;
+    line-height: 16.95px;
+    font-weight: 400;
+    color: #8692A6;
+    justify-content: flex-end;
+    display: flex;
+}
+
+
+.upper-right-bar .upper-right-panel .bottom-panel {
+    font-size: 16px;
+    line-height: 19.36px;
+    font-weight: 600;
+    color: #8692A6;
+}
+
+.right-panel .lower-right-panel {
+    margin-top: 66px;
+    padding: 33px;
+}
+
+.right-panel .lower-right-panel h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.3px;
+    color: black;
+}
+
+.right-panel .lower-right-panel p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: var(--color-gray);
+    width: 411px;
+}
+
+.main-form .row {
+    width: 100%;
+    margin-bottom: 25px;
+
+}
+
+.lower-right-panel .main-form .row label {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: #696F79;
+    margin-bottom: 14px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.lower-right-panel .main-form input {
+    background: #FFFFFF !important;
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11) !important;
+    border: 1px solid #8692A6;
+    border-radius: 6px;
+    height: 64px;
+    width: 396px;
+
+    padding-left: 30px;
+}
+
+.lower-right-panel .main-form #fname,
+.lower-right-panel .main-form #contact {
+    background: #FFFFFF !important;
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11) !important;
+    border: 1px solid #1565D8 !important;
+    height: 64px;
+    border-radius: 6px;
+    width: 396px;
+    padding-left: 30px;
+}
+
+.lower-right-panel .main-form input:focus,
+.lower-right-panel .main-form #fname:focus,
+.lower-right-panel .main-form #contact:focus {
+    outline: none;
+
+}
+
+.main-form .checkbox {
+    display: flex;
+    height: 20px;
+    align-items: center;
+}
+
+.main-form .checkbox #check {
+    width: 20px;
+    height: 20px;
+}
+
+.main-form .checkbox label {
+    align-items: center;
+    font-size: 16px;
+    line-height: 20px;
+    color: #696F79;
+    margin-left: 15px;
+}
+
+.main-form .register {
+    width: 426px;
+    height: 64px;
+    margin-top: 39px;
+    background: #1565D8;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+
+.main-form .register-or {
+    width: 100%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #BABABA;
+
+}
+
+.main-form .second-register {
+    width: 426px;
+    height: 64px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.main-form .second-register img {
+    margin-left: 46px;
+}
+
+.main-form .signin-google {
+    background-color: transparent;
+    border: none;
+    margin-left: 68px;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+
+.main-form .safety {
+    font-size: 12px;
+    line-height: 14.5px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}

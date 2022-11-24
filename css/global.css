@@ -1,0 +1,20 @@
+:root {
+    /* fonts */
+    --font-inter: Inter;
+    --font-gayathri: Gayathri;
+    --font-gilroy: Gilroy;
+
+    /* font sizes */
+    --font-size-base: 14px;
+    --font-size-lg: 16px;
+    --font-size-xl: 18px;
+
+    /* Colors */
+    --color-white: #fff;
+    --color-gray: #8692A6;
+    --color-black: #000;
+    --color-indigo: #1565d8;
+
+    /* border radiuses */
+    --br-md: 6px;
+}
